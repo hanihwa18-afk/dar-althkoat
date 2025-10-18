@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>روابط التواصل</title>
+
+  <!-- خط تايبوغرافيا -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" />
+
+<style>
+    /* ----------- إعدادات عامة ----------- */
+    body {
+      margin: 0;
+      font-family: 'Tajawal', sans-serif;
+      background: linear-gradient(135deg, #34564d, #47714e);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* ----------- العناوين ----------- */
+    h1 {
+      color: #fff;
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+
+    /* ----------- اللوحة المركزية ----------- */
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      border-radius: 25px;
+      padding: 40px 30px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    /* ----------- الروابط ----------- */
+    .card a {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card a:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    /* ----------- الصور ----------- */
+    .card img {
+    width: 70px;
+    height: 70px;
+      border-radius: 15px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 2px solid rgba(255, 255, 255, 0.8);
+    }
+
+    /* ----------- أسماء التطبيقات ----------- */
+    .card span {
+      color: #fff;
+      font-weight: bold;
+      font-size: 0.95em;
+      margin-top: 5px;
+    }
+
+    /* ----------- استجابة الجوال ----------- */
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 1.2em;
+      }
+      .card {
+        padding: 25px;
+      }
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+    .card span {
+        font-size: 0.85em;
+      }
+
+.subheading {
+  margin-top: -10px; /* يقلل المسافة بين العنوانين */
+}
+    }
+</style>
+</head>
+
+<body>
+<h1>الحسابات الرسمية</h1>
+<h1>لدور الذكوات للطباعة والنشر والتوزيع</h1>
+
+<div class="card">
+    <a href="https://wa.me/9647761660066" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp 1" />
+        <span>واتساب 1</span>
+    </a>
+
+    <a href="https://wa.me/9647761667766" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp 2" />
+        <span>واتساب 2</span>
+    </a>
+
+    <a href="https://t.me/h77l0" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" />
+        <span>تليجرام</span>
+    </a>
+
+    <a href="https://www.instagram.com/dar_dhikwat?igsh=MWgyMTNkdGt4OGEzeA==" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        <span>إنستغرام</span>
+    </a>
+
+    <a href="https://www.tiktok.com/@vrs883?_t=ZS-90dPT2eUGRu&_r=1" target="_blank">
+        <img src="Screenshot 2025-10-18 005721.png" alt="TikTok" />
+        <span>تيك توك</span>
+    </a>
+
+    <a href="https://www.facebook.com/share/1bA5dNo1mG/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
+        <span>فيسبوك</span>
+    </a>
+    </div>
+</body>
+</html>
